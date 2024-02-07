@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>b50_to_b53.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>b50 to b53</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-0.6281158588521596,52.07016287615168,0 -0.6280831754283023,52.07036192865563,0 -0.6281564578778209,52.07053897288129,0 -0.6283246665834452,52.07052085161198,0 -0.6287735757508039,52.07056277409313,0 -0.6294639881757946,52.07064890667139,0 -0.6296311050171499,52.07066659430582,0 -0.6294158431893571,52.07128229720757,0 -0.6293042241192304,52.0714968208976,0 -0.6286098812077134,52.07209493688405,0 -0.6287443137297277,52.0721500549358,0 -0.6286168897486411,52.07223109615472,0 -0.6289306276851514,52.07238009494727,0 -0.6291538583010037,52.07253686237104,0 -0.6291333113939879,52.07262064461177,0 -0.629688464596736,52.0728743517159,0 -0.6298539370803113,52.07295498869626,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
