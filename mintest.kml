@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>minor roads</name>
+	<description>Isle of Wight minor roads</description>
+	<Style id="minor_road">
+		<LineStyle>
+			<color>ffffffff</color>
+			<width>2</width>
+		</LineStyle>
+
+		<BalloonStyle>
+        	<text>$[type]</text>
+      	</BalloonStyle>
+	</Style>
+	
+	<Placemark>
+		<name>B3321</name>
+
+		<ExtendedData>
+        	<Data name="type">
+          		<value>B ROAD SINGLE C/W</value>
+        	</Data>
+      	</ExtendedData>
+
+		<LineString>
+				<coordinates>
+					-1.282578249895532,50.75814810086041,46.74313005059958 -1.283265200067998,50.75662175649786,46.74208016507328 -1.283470673354223,50.75569901308319,46.7411785274744 -1.283294004532112,50.75444721537262,46.73937619943172 -1.282632879769616,50.75254154326942,46.7361331935972 -1.282293625820243,50.7523672453514,46.73548212926835 -1.281394506842353,50.75220694519705,46.73413693811744 -1.278419417845613,50.75200737774217,46.73010253347456 -1.27474245857889,50.7514450114725,46.72471698559821 
+				</coordinates>
+			</LineString>
+
+	</Placemark>
+</Document>
+</kml>
