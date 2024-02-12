@@ -6,7 +6,7 @@
 	<Style id="MajorRoad">
 		<LineStyle>
 			<color>ff00ccff</color>
-			<width>4</width>
+			<width>20</width>
 		</LineStyle>
 	</Style>
 
