@@ -10,7 +10,7 @@
 		</LineStyle>
 
 		<BalloonStyle>
-        	<text>$[type]</text>
+        	<text>$</text>
       	</BalloonStyle>
 	</Style>
 	
@@ -18,7 +18,7 @@
 		<name>B3321</name>
 
 		<ExtendedData>
-        	<Data name="type">
+        	<Data>
           		<value>B ROAD SINGLE C/W</value>
         	</Data>
       	</ExtendedData>
