@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Towns</name>
+	
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>Population: $[Population]</text>
+		</BalloonStyle>
+	</Style>
+
+		<Placemark>
+			<name>Cowes</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>16278</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.297834655046122,50.7618380143994,46.7671571765095</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Newport</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>20324</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.28882036325741,50.70171158053979,46.6796205015853</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ryde</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>19843</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.157764650672966,50.72943603707097,46.54744975920767</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bembridge</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>3452</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.078710176804072,50.68567236425498,46.38990966137499</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brading</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>2071</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.139979051997921,50.67930575557374,46.46067404933274</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>East Cowes</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>209</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.282578249895532,50.75814810086041,46.74313005059958</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sandown</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>4813</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.153441807410935,50.65476361257272,46.44647011812776</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shanklin</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>8140</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.172865884000085,50.62810398402229,46.43705518823117</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Totland</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>2316</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.529139996390265,50.68566323522889,46.96247643046081</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ventnor</name>
+			<styleUrl>#hlightPointStyle</styleUrl>
+			
+			<ExtendedData>
+				<Data name="Population">
+					<value>6458</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.204229944317541,50.59594751680806,46.43565926142037</coordinates>
+			</Point>
+		</Placemark>
+</Document>
+</kml>
